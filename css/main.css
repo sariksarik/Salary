@@ -7,8 +7,7 @@
   }
   
   body {
-    background: #ffffff;
-    height: 100vh;
+    background: #ffffff;  
 
   }
   h1{
@@ -64,9 +63,36 @@ ul{
   justify-content: center;
   align-items: center;
 }
+
 h2{
   font-size: 90px;
+
   
 }
-  
+
+@media(max-width: 600px) {
+  h2 {
+    font-size: 22px;
+
+  }
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 30%;
+  }
+  .Yes{
+    font-size: 18px;
+    height: 2rem;
+    width: 5rem;
+    padding-top: 7px;
+  }
+  button{
+    font-size: 18px;
+    height: 2rem;
+    width: 5rem;
+    padding-top: 7px;
+    left: 70%;
+  }
+}
+
   
